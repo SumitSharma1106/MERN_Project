@@ -1,0 +1,18 @@
+.checkbox-container {
+    display: inline-block;
+    width: 20px; /* Adjust width and height for desired checkbox size */
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .checkbox {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    background-color: #fff;
+  }
+  
+  .checkbox.checked {
+    background-color: #000; /* Change background color when checked */
+  }
+  
